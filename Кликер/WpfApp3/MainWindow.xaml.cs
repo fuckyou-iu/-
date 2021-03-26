@@ -51,7 +51,7 @@ namespace WpfApp3
             {
                 combobox2.Items.Add(item);
             }
-            foreach (var item in valera)
+            foreach (var item in anton)
             {
                 combobox3.Items.Add(item);
 
