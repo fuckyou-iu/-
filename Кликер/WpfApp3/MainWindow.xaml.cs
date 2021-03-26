@@ -26,8 +26,8 @@ namespace WpfApp3
         int[] homesprice = { 8000000, 12000000, 15000000, 200000000, 25000000, 32000000, 40000000, 50000001 };
         string[] car = {"жигули", "девятка", "ауди", "бэха", "патриот", "гелик" };
         int[] carprice = { 30000, 40000, 900000, 1200000, 600000, 2000000 };
-        string[] valera = { "Антон JUNIOR","Валера MIDDLE","Валера SENIOR" };
-        int[] valeraprice = { 1000000,10000000,100000000};
+        string[] anton = { "Антон JUNIOR","Антон MIDDLE","Антон SENIOR" };
+        int[] antonprice = { 1000000,10000000,100000000};
         string[] rab = {"бомж","ученик 1-го класса","выпускник школы","первокурсник КСТ","выпускник КСТ","Putin" };
         int[] rabprice = { 5000,20000,50000,70000,120000,1000000 };
 
@@ -189,11 +189,11 @@ namespace WpfApp3
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            if (point >= (valeraprice[combobox3.SelectedIndex]))
+            if (point >= (antonprice[combobox3.SelectedIndex]))
 
             {
 
-                point -= valeraprice[combobox3.SelectedIndex];
+                point -= antonprice[combobox3.SelectedIndex];
 
                 tb4.AppendText(combobox3.Text + "\n");
 
